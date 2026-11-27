@@ -1,0 +1,46 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Secrets and local config – never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+secrets/
+
+# Real data – never commit (only data/sample/ synthetic data is allowed)
+data/*
+!data/sample/
+*.xlsx
+*.xlsm
+*.csv
+!data/sample/*.csv
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs / temp
+*.log
+tmp/

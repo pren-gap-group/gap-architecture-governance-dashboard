@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "ms-vscode-remote.remote-containers",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "atlassian.atlascode",
+    "ms-python.python",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "davidanson.vscode-markdownlint"
+  ]
+}
