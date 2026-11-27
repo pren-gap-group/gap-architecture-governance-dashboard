@@ -1,0 +1,6 @@
+# The backlog lives in Jira, not GitHub Issues.
+blank_issues_enabled: false
+contact_links:
+  - name: Raise a story, task or bug in Jira (AGD project)
+    url: https://gap-group.atlassian.net/jira/software/projects/AGD
+    about: All work is tracked in Jira. Please create a ticket there.
